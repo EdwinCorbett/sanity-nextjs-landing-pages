@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "private": true,
   "name": "sanity-nextjs-landing-pages",
@@ -19,25 +18,3 @@
     "lerna": "^3.9.0"
   }
 }
-=======
-{
-  "private": true,
-  "name": "sanity-nextjs-landing-pages",
-  "version": "1.0.9",
-  "scripts": {
-    "build": "lerna run build --parallel",
-    "build-web": "lerna bootstrap && (cd web && npm run build)",
-    "build-studio": "lerna bootstrap && (cd studio && npm run build)",
-    "dev": "lerna run dev --parallel",
-    "format": "lerna run format",
-    "graphql-deploy": "lerna run graphql-deploy",
-    "lint": "lerna run lint",
-    "postinstall": "lerna bootstrap",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@sanity/cli": "^1.150.1",
-    "lerna": "^3.9.0"
-  }
-}
->>>>>>> 2c707fdf217062917af56baba8dcd89c86aa6058
